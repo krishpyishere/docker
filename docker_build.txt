@@ -1,0 +1,2 @@
+docker build -f parent-Dockerfile -t papa-ubuntu .
+docker build -f child-Dockerfile -t baby-ubuntu .
