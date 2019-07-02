@@ -1,0 +1,5 @@
+FROM papa-ubuntu:latest
+
+CMD ["bash"]
+
+ docker build -f child-Dockerfile -t baby-ubuntu .
